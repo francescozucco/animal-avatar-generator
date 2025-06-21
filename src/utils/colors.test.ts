@@ -1,4 +1,4 @@
-import { darken } from './colors'
+import { darken } from './colors.js'
 
 describe('colors', () => {
   describe('#darken', () => {

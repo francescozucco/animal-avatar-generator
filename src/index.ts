@@ -1,8 +1,8 @@
-import { pick } from './utils/array'
-import { createBackground, createBlackout, createSvg } from './utils/svg'
-import { seedrandom } from './utils/random'
-import { avatarColors as aColors, backgroundColors as bColors } from './palette'
-import { Shape, faces, ears, muzzles, eyes, brows, patterns, hairs, emptyShape } from './shapes'
+import { pick } from './utils/array.js'
+import { createBackground, createBlackout, createSvg } from './utils/svg.js'
+import { seedrandom } from './utils/random.js'
+import { avatarColors as aColors, backgroundColors as bColors } from './palette/index.js'
+import { Shape, faces, ears, muzzles, eyes, brows, patterns, hairs, emptyShape } from './shapes/index.js'
 
 export type AvatarOptions = {
   size?: number | string;

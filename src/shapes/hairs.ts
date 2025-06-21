@@ -1,5 +1,5 @@
-import { Shape } from './types'
-import { darken } from '../utils/colors'
+import { Shape } from './types.js'
+import { darken } from '../utils/colors.js'
 
 export const hairs: Shape[] = [
   (_color) => `

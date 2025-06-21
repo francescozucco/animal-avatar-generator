@@ -1,4 +1,4 @@
-import { Shape } from './types'
+import { Shape } from './types.js'
 
 export const brows: Shape[] = [
   (_color) => `

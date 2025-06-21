@@ -1,4 +1,4 @@
-import { seedrandom } from './random'
+import { seedrandom } from './random.js'
 
 describe('random', () => {
   describe('#seedrandom', () => {
